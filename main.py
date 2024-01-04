@@ -1,4 +1,4 @@
-#from tkinter import *
+
 import tkinter as tk
 
 calculation= ""     #variabila globala - initialaizata cu un sir vid
