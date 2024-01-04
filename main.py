@@ -1,11 +1,9 @@
-
 import tkinter as tk
 from math import pi, sqrt, sin, cos, tan, asin, acos, atan, log, exp, e
 
 calculation= ""     #variabila globala - initialaizata cu un sir vid
 
 
-#adaugarea simbolurilor la variabila calculation
 def add_to_calculation(symbol):
     global calculation
     calculation +=str(symbol)
@@ -44,7 +42,7 @@ def backspace():
 #aspectul ferestrei: obiect, dimensiune, titlu si culoarea fundalulu(din spatele butoanelor)
 root = tk.Tk()#create the object
 root.geometry("329x413") #lenght x height
-root.title("Calculator") #title of the window
+root.title("Scientific Calculator") #title of the window
 root.configure(bg="#000000")
 
 text_result = tk.Text(root, height = 2, width = 18, font = ("Arial",24), bg= "#000000", fg= "#FFFFFF")
