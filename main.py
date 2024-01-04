@@ -41,7 +41,7 @@ def backspace():
 
 #aspectul ferestrei: obiect, dimensiune, titlu si culoarea fundalulu(din spatele butoanelor)
 root = tk.Tk()#create the object
-root.geometry("329x413") #lenght x height
+root.geometry("328x412") #lenght x height
 root.title("Scientific Calculator") #title of the window
 root.configure(bg="#000000")
 
@@ -134,37 +134,38 @@ btn_tg.grid(row = 2, column = 3)
 
 #power
 btn_pow = tk.Button(root, text = "^", command = lambda: add_to_calculation("**"), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
+btn_pow.grid(row = 4, column = 3)
 
 #pi
 btn_pi = tk.Button(root, text = "π", command = lambda: add_to_calculation("pi"), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
-btn_pi.grid(row = 3, column = 1)
+btn_pi.grid(row = 4, column = 1)
 
 #e
 btn_e = tk.Button(root, text = "e", command = lambda: add_to_calculation("e"), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
-btn_e.grid(row = 3, column = 2)
+btn_e.grid(row = 4, column = 2)
 
 #ln
 btn_ln = tk.Button(root, text = "ln", command = lambda: add_to_calculation("log("), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
-btn_ln.grid(row = 3, column = 3)
+btn_ln.grid(row = 3, column = 4)
 
 #√
 btn_pow = tk.Button(root, text = "√", command = lambda: add_to_calculation("sqrt("), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
-btn_pow.grid(row = 3, column = 4)
+btn_pow.grid(row = 4, column = 4)
 
 #asin
 btn_asin = tk.Button(root, text = "asin", command = lambda: add_to_calculation("asin("), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
-btn_asin.grid(row = 4, column = 1)
+btn_asin.grid(row = 3, column = 1)
 
 #acos
 btn_acos = tk.Button(root, text = "acos", command = lambda: add_to_calculation("acos("), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
-btn_acos.grid(row = 4, column = 2)
+btn_acos.grid(row = 3, column = 2)
 
 #atan
 btn_atan = tk.Button(root, text = "atan", command = lambda: add_to_calculation("atan("), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
-btn_atan.grid(row = 4, column = 3)
+btn_atan.grid(row = 3, column = 3)
 
 #exp
 btn_exp = tk.Button(root, text = "exp", command = lambda: add_to_calculation("exp("), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
-btn_exp.grid(row = 4, column = 4)
+btn_exp.grid(row = 2, column = 4)
 
 root.mainloop() #run the main loop- keep the window open
