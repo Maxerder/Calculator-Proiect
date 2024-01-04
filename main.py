@@ -17,5 +17,5 @@ def clear_field():
 
 root = tk.Tk()#create the object
 root.geometry("400x500") #lenght x height
-root.title("Calculator")
+root.title("Calculator") #title of the window
 root.mainloop() #run the main loop
