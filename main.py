@@ -120,4 +120,4 @@ btn_backspace.grid(row=6, column=2)
 btn_TOTALDEL = tk.Button(root, text = "C", command = clear_field, width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
 btn_TOTALDEL.grid(row = 6, column = 1)
 
-root.mainloop() #run the main loop
+root.mainloop() #run the main loop- keep the window open
