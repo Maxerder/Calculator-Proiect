@@ -77,7 +77,7 @@ btn_2.grid(row = 7, column = 2)
 btn_1 = tk.Button(root, text = "1", command = lambda: add_to_calculation(1), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
 btn_1.grid(row = 7, column = 1)
 #0
-btn_0 = tk.Button(root, text = "0", command = lambda: add_to_calculation(0), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF",)
+btn_0 = tk.Button(root, text = "0", command = lambda: add_to_calculation(0), width = 6, font = ("Arial", 16), bg= "#000000", fg= "#FFFFFF")
 btn_0.grid(row = 8, column = 1)
 
 #Brackets buttons
